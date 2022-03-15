@@ -1,0 +1,160 @@
+:root{
+    --vermelho:#E50914;
+    --preta:#141414;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/*elementos base*/
+body{
+   background: var(--preta);
+   font-family: 'Arial', Times, serif;
+   color:white;
+}
+
+header .container{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 8px 20px;
+}
+
+header .logo{
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size: 30px;
+}
+
+a{
+    text-decoration:none;
+    color:#AAA;
+    margin-right: 15px;
+}
+
+
+a:hover{
+    color:#fff;    
+}
+
+/*filme principal*/
+.destaque{
+    font-size:20px;
+    background-image: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  url(../img/capa.jpg);
+
+    width: 100%;
+    height: 700px;
+
+    background-size: cover;
+    background-position: right top;
+    background-repeat: no-repeat;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    line-height: 1.5;
+}
+
+.titulo{
+    margin-top: 15%;
+    font-size: 45px;
+    font-family: Georgia, Times, 'Times New Roman', serif
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border:none;
+    color: white;
+
+    padding:15px 30px;
+    margin-right: 15px;
+    font-size: 13px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover{
+    background-color:white;
+    color:black;
+}
+
+.botao i{
+    margin-right: 8px;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.filme-principal .container{
+    width: 70%;
+}
+
+/* Carrosel */
+
+h4{
+    margin: 15px 0 10px;
+    font-size: 25px;
+    padding-left: 20px;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+}
+
+.carrosel {
+    margin-top:5px;
+}
+
+/* FOOTER */
+
+.inf-redes-e-footer{
+    width: 80%;
+    margin: auto;
+    height:200px;
+}
+
+.icones-sociais{
+    padding-top:20px;
+    margin: auto;
+    text-align:center;
+}
+
+.icone-social{
+   text-decoration:none;
+   font-size: 25px;
+   color: white;
+   margin: 0 10px;
+}
+
+.inf-footer{
+    margin-top: 25px;
+    text-align:center;
+}
+
+.copy{
+    padding-top: 40px;
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+
